@@ -3,3 +3,10 @@ docker/data/db/**
 .vscode/
 .idea/
 .env
+
+client/yarn.lock
+client/package-lock.json
+
+api/yarn-error.log
+api/package-lock.json
+api/yarn.lock

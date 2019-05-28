@@ -44,6 +44,7 @@ class Register extends Component {
   registerUser = e => {
     e.preventDefault();
     const { first_name, last_name, username, password, email } = this.state;
+    console.log(first_name);
     if (username === '' || password === '' || email === '') {
       this.setState({
         showError: true,

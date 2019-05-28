@@ -50,6 +50,7 @@ module.exports = (app) => {
           },
         }).then((userInfo) => {
           if (userInfo != null) {
+            console.log(" USER INFO ", userInfo);
             console.log('user found in db from findUsers');
             res.status(200).send({
               auth: true,

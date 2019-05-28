@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import Sequelize from 'sequelize';
 import User from '../sequelize';
 

@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
 /* eslint-disable consistent-return */
 /* eslint-disable no-console */
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import Sequelize from 'sequelize';
 import jwtSecret from './jwtConfig';
 
